@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "docker_workshop"
+version = "0.1.0"
+description = "Few small docker examples"
+authors = ["Tim de Klijn <timdeklijn@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+python-language-server = {extras = ["all"], version = "^0.36.2"}
+notebook = "^6.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
